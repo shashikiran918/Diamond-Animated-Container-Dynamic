@@ -31,6 +31,7 @@ class _UserInputState extends State<UserInput> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: Colors.redAccent,
       appBar: AppBar(
         title: Text("DIAMOND PATTERN",
